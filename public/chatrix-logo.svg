@@ -1,0 +1,21 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chatrixGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Chat bubble 1 -->
+  <path d="M40 60C40 48.954 48.954 40 60 40H120C131.046 40 140 48.954 140 60V100C140 111.046 131.046 120 120 120H75L55 135V120H60C48.954 120 40 111.046 40 100V60Z" 
+        fill="url(#chatrixGradient)" opacity="0.8"/>
+  
+  <!-- Chat bubble 2 -->
+  <path d="M60 80C60 68.954 68.954 60 80 60H140C151.046 60 160 68.954 160 80V120C160 131.046 151.046 140 140 140H95L75 155V140H80C68.954 140 60 131.046 60 120V80Z" 
+        fill="url(#chatrixGradient)"/>
+  
+  <!-- Message dots -->
+  <circle cx="100" cy="100" r="6" fill="white"/>
+  <circle cx="120" cy="100" r="6" fill="white"/>
+  <circle cx="140" cy="100" r="6" fill="white"/>
+</svg>
